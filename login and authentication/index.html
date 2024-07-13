@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login authentication</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Poppins">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+</head>
+
+<body>
+    <div class="container">
+        <div class="form-box">
+            <h1 class="title">Sign Up</h1>
+            <div class="underline"></div>
+
+            <form onsubmit=" return data()" action="index2.html">
+                <div class="input-group">
+                    <div class="input-field name-field">
+                        <i class="fa-solid fa-user"></i>
+                        <input type="text" id="name" placeholder="Name">
+                    </div>
+
+                    <div class="input-field">
+                        <i class="fa-solid fa-at"></i>
+                        <input type="email" id="email" placeholder="Email">
+                    </div>
+
+                    <div class="input-field">
+                        <i class="fa-solid fa-key"></i>
+                        <input type="password" id="password" placeholder="password">
+                    </div>
+                    <p><span class="text1">Password Suggestion</span> <a href="#">Click Here!</a></p>
+
+                    <div class="btn-field">
+                        <button type="submit " class="signupbtn">Sign Up</button>
+                        <button type="submit" class="disable signinbtn">Sign In</button>
+                    </div>
+                </div><!--input-group-->
+
+            </form>
+
+        </div><!--form-box-->
+
+    </div> <!--container-->
+
+    <script src="script.js"></script>
+</body>
+
+</html>
